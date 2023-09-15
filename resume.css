@@ -1,0 +1,70 @@
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+   
+  p {
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  /* Colors */
+  body {
+    background-color: #f5f5f5;
+    color: #333333;
+  }
+  
+  header {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Layout */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  @media (max-width: 600px) {
+    main {
+      padding: 10px;
+    }
+  }
+  
